@@ -13,6 +13,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { CarrosComponent } from './carros/carros.component';
 import { PlantillasComponent } from './plantillas/plantillas.component';
 import { ConversorPipe } from './pipes/conversor.pipe';
+import { HijoCompoenet } from './hijo/hijo.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ConversorPipe } from './pipes/conversor.pipe';
     ContactoComponent,
     ConversorPipe,
     CarrosComponent,
-    PlantillasComponent
+    PlantillasComponent,
+    HijoCompoenet
   ],
   imports: [
     BrowserModule,
